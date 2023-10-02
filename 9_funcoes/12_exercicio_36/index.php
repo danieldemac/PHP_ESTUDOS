@@ -4,7 +4,7 @@ function arrNum($recebe){
     $array2 = array();
   
     for ($i = 0; $i < count($recebe); $i++) {
-        if ($recebe[$i] >= 7) {
+        if ($recebe[$i] > 7) {
             $array2[] = $recebe[$i];
         }
     }
