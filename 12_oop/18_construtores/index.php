@@ -1,6 +1,6 @@
 <?php
 
-use Car as GlobalCar;
+
 
 class Car{
 
